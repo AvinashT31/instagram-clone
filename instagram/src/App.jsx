@@ -1,8 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
-import Homapage from './component/Homepage';
+import Signup from './component/Signup';
 import Login from './component/Login';
+import Homapage from './component/Homepage';
+import Addpost from './component/Addpost';
+import Profile from './component/Profile';
 
 function App() {
   return (
@@ -10,9 +13,10 @@ function App() {
       {/* <Homapage/> */}
       <Routes>
       <Route exact path='/' element={<Homapage/>} />
+      <Route exact path='/signup' element={<Signup/>} />
       <Route exact path='/login' element={<Login/>} />
-
-
+      <Route exact path='/addpost' element={<Addpost/>} />
+      <Route exact path='/profile' element={<Profile/>} />
       </Routes>
     </div>
   );

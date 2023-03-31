@@ -1,0 +1,766 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    border: 1px solid rgb(202, 188, 188);
+    width: 100%;
+    height: 100vh;
+}
+
+#sidebar-logo{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100px;
+}
+
+#sidebar-logo-section{
+    /* border: 1px solid black; */
+    width: 80%;
+    margin: auto;
+    height: 60px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+#sidebar-logo-section img{
+    width: 75%;
+    height: 100%;
+}
+
+#sidebar-mid-section{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 50px;
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+#sidebar-mid-section i{
+/* border: 1px solid black; */
+width: 20%;
+margin-left: 10px;
+padding-top: 15px;
+}
+
+
+#sidebar-mid-section p{
+    /* border: 1px solid black; */
+    padding-top: 12px;
+    font-weight: 500;
+}
+
+#sidebar-mid-section button{
+    padding-bottom: 10px;
+    border: none;
+    outline: none;
+    background-color: white;
+    font-weight: 800;
+    color: black;
+    font-size: 18px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#sidebar-bottom-section{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 50px;  
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 10px;
+    margin-top: 20px; 
+    background-color: white; 
+}
+
+#sidebar-bottom-section button{
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 30px;
+    font-size: 15px;
+    background-color: white;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* Signup page */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#signup-fullpage {
+    border: 1px solid black;
+    width: 100%;
+    height: 800px;
+}
+
+#signup {
+    border: 1px solid grey;
+    width: 25%;
+    margin: auto;
+    height: 550px;
+    margin-top: 50px;
+}
+
+#signup-one {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100px;
+}
+
+#signup-one img {
+    width: 60%;
+    margin-left: 70px;
+    height: 100%;
+}
+
+#signup-five {
+    /* border: 1px solid black; */
+    width: 75%;
+    margin: auto;
+    height: 40px;
+    margin-top: 13px;
+}
+
+#signup-five-one {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0,149,246);
+    color: white;
+    border: none;
+    outline: none;
+}
+
+#signup-five-f-one i {
+    padding-top: 12px;
+}
+
+#signup-five-f-two p {
+    margin-top: 7px;
+    margin-left: 15px;
+}
+
+#signup-five-two {
+    text-align: center;
+}
+
+#signup-two {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 150px;
+}
+
+#signup-two form {
+    text-align: center;
+}
+
+#signup-two form input {
+    height: 30px;
+    margin-top: 5px;
+    width: 75%;
+}
+
+#signup-three{
+    margin-top: 8px;
+}
+
+#signup-three fieldset {
+    border: none;
+    border-top: 1px solid grey;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+}
+
+#signup-four {
+    /* border: 1px solid black; */
+    width: 75%;
+    margin: auto;
+    font-size: 12px;
+    height: 48px;
+    margin-top: 12px;
+   text-align: center;
+}
+
+#signup-content {
+    /* border: 1px solid grey; */
+    width: 75%;
+    margin: auto;
+    height: 35px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+
+#signup-content-info{
+    /* border: 1px solid grey; */
+    width: 75%;
+    margin: auto;
+    height: 40px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+/* login page */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#log-fullpage {
+    border: 1px solid black;
+    width: 100%;
+    height: 800px;
+}
+
+#logged {
+    border: 1px solid grey;
+    width: 25%;
+    margin: auto;
+    height: 415px;
+    margin-top: 50px;
+}
+
+#logged-one {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100px;
+}
+
+#logged-one img {
+    width: 60%;
+    height: 100%;
+}
+
+#logged-two {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 150px;
+}
+
+#logged-two form {
+    text-align: center;
+}
+
+#logged-two form input {
+    height: 28px;
+    margin-top: 16px;
+    width: 75%;
+}
+
+#logged-three fieldset {
+    border: none;
+    border-top: 1px solid grey;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    margin-top: 45px;
+}
+
+#logged-four {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100px;
+}
+
+#logged-four-one {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#logged-four-f-one {
+    /* border: 1px solid black; */
+}
+
+#logged-four-f-one i {
+    padding-top: 12px;
+}
+
+#logged-four-f-two {
+    /* border: 1px solid black; */
+}
+
+#logged-four-f-two p {
+    margin-top: 7px;
+    margin-left: 15px;
+}
+
+#logged-four-two {
+    text-align: center;
+}
+
+#logged-content {
+    border: 1px solid grey;
+    width: 25%;
+    margin: auto;
+    height: 60px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#logged-content button{
+    border: none;
+    outline: none;
+    background-color: white;
+    margin-left: 8px;
+    font-size: 15px;
+    padding-bottom: 8px;
+    color: blueviolet;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#logged-content p{
+    margin-top: 15px;
+}
+
+#logged-content-info {
+    border: 1px solid black;
+    width: 25%;
+    margin: auto;
+    height: 100px;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+}
+
+#logged-content-info>div :nth-child(1) {
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+#logged-content-infos {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 43px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+#logged-content-info-one {
+    /* border: 1px solid black; */
+    width: 35%;
+    height: 43px;
+}
+
+#logged-content-info-one img {
+    width: 100%;
+    height: 100%;
+}
+
+#logged-content-info-two {
+    /* border: 1px solid black; */
+    width: 35%;
+    height: 43px;
+}
+
+#logged-content-info-two img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Homepage page */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#homepage{
+    border: 1px solid black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+#homepage-section-one{
+    border: 1px solid black;
+    width: 18%;
+    height: 100vh;
+}
+
+#homepage-section-two{
+    border: 1px solid black; 
+    width: 55%;
+    height: 100vh;
+}
+
+#homepage-section-three {
+    border: 1px solid black;
+    width: 27%;
+    height: 100vh;
+}
+
+#homepage-section-two-item{
+    border: 1px solid black;
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#homepage-section-two-f-item{
+    border: 1px solid black;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+#homepage-section-two-f-item img{
+    width: 100%;
+    height: 100%;
+}
+
+#homepage-section-two-item1{
+    border: 1px solid black;
+    width: 100%;
+    height: 87vh;
+}
+
+
+/* Addpost page */
+
+#addpost-fullpage{
+    border: 1px solid black;
+    width: 100%;
+    height: 800px;
+}
+
+#addpost-page{
+    border: 1px solid black;
+    width: 70%;
+    margin: auto;
+    height: 500px;
+    margin-top: 100px;
+}
+
+#addpost-page-heading{
+    /* border: 1px solid black; */
+    width: 95%;
+    margin: auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#addpost-post-f-item2{
+    margin-top: 8px;
+    font-size: 25px;
+}
+
+#addpost-post-f-item3{
+    margin-top: 8px;
+    font-size: 25px;
+}
+
+#addpost-page-heading h4{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#addpost-post-second{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 450px;
+    display: flex;
+}
+
+#addpost-post-f-item{
+    /* border: 1px solid black; */
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    width: 60%;
+    height: 450px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#addpost-post-f-item img{
+    width: 90%;
+    margin: auto;
+    height: 90%;
+}
+
+#addpost-post-f-item1{
+    /* border: 1px solid black; */
+    border-top: 1px solid black;
+    width: 40%;
+    height: 450px;
+}
+
+#addpost-post-item{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+#addpost-post-item2{
+    border: 1px solid black;
+    width: 90%;
+    height: 90px;
+    margin: auto;
+}
+
+#addpost-post-f2-item{
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-top: 5px;
+}
+
+#addpost-post-f3-item{
+    /* border: 1px solid black; */
+    width: 30%;
+    padding-top: 14px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+#addpost-post-item3{
+    border: 1px solid black;
+    width: 90%;
+    margin: auto;
+    height: 40px;
+    margin-top: 10px;
+}
+
+#addpost-post-item3 input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+}
+
+#addpost-post-item4{
+    border: 1px solid black;
+    width: 90%;
+    margin: auto;
+    height: 40px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#addpost-post-f4-item{
+    margin-top: 5px;
+}
+
+#addpost-post-f5-item{
+    margin-top: 5px;
+    margin-right: 15px;
+}
+
+#addpost-post-item5{
+    border: 1px solid black;
+    width: 90%;
+    margin: auto;
+    height: 40px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#addpost-post-f6-item{
+    margin-top: 5px;
+}
+
+#addpost-post-f7-item{
+    margin-top: 5px;
+    margin-right: 15px;
+}
+
+#addpost-post-second input{
+ border: none;
+ outline: none;
+ margin-left: 15px;
+ width: 75%;
+}
+#addpost-post-item6{
+    border: 1px solid black;
+    width: 90%;
+    margin: auto;
+    height: 40px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#addpost-post-f8-item{
+    margin-top: 5px;
+}
+
+#addpost-post-f9-item{
+    margin-top: 5px;
+    margin-right: 15px;
+}
+
+#addpost-post-item7{
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    text-align: center;
+}
+
+#addpost-post-item7 button{
+    border: 1px solid black;
+    width: 22%;
+    height: 25px;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Profile pages */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#profile-main{
+    border: 1px solid black;
+    width: 100%;
+    height: 100vh;
+    display: flex; 
+}
+
+#profile-main-left{
+     border: 1px solid black; 
+    width: 18%;
+    height: 100vh; 
+}
+
+#profile-main-right{
+    border: 1px solid black; 
+    width: 82%;
+    height: 100vh; 
+}
+
+#profile{
+    border: 1px solid black;
+
+}
+
+#profile-header{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 35vh;
+    display: flex;
+}
+
+#profile-pic{
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    margin-left: 100px;
+    margin-top: 40px
+}
+
+#profile-pic-content{
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 35vh;
+    margin-left: 60px;
+}
+
+#profile-pic-username-content{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+#profile-main-bottom{
+    border: 1px solid grey;
+    width: 80%;
+    margin: auto;
+}
+
+#prfile-pic-p{
+    /* border: 1px solid black; */
+    width: 30%;
+}
+
+#profile-pic-username-content p{
+    font-size: 22px;
+    margin-top: 3vh;
+}
+
+#profile-pic-username-content button{
+    width: 100%;
+    height: 30px;
+    border-radius: 6px;
+    border: none;
+    font-size: 15px;
+    margin-top: 3vh;
+}
+
+#profile-pic-i{
+    /* border: 1px solid black; */
+    margin-top: 4vh;
+}
+
+#profile-pic-followers{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 5vh;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1vh;
+}
+
+
+#profile-main-footer{
+    border: 1px solid black;
+    width: 100%;
+    /* height: 300px; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#displayimage{
+    border: 1px solid black;
+    width: 33%;
+    height: 350px;
+}
+
+#displayimage img{
+    width: 100%;
+    height: 100%;
+}
