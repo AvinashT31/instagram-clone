@@ -66,7 +66,7 @@ function Homapage() {
                   <div id="homepage-display" key="i">
                      <div id="homepage-display-username">
                         <p>{e.username}</p>
-                        <i class="fa-regular fa-bars"></i>
+                        <i class="fa-solid fa-ellipsis"></i>
                      </div>
                      <div id="homepage-display-image">
                         <img src={e.image} alt="" />
@@ -75,7 +75,7 @@ function Homapage() {
                         <div id="homepage-display-icons-i">
                            <i class="fa-regular fa-heart"></i>
                            <i class="fa-regular fa-comment"></i>
-                           <i class="fa-solid fa-caret-up"></i>
+                           <i class="fa-regular fa-paper-plane"></i>
                         </div>
                         <div id="homepage-display-icons-i2">
                            <i class="fa-regular fa-bookmark"></i>

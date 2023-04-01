@@ -10,7 +10,7 @@ function Sidebar() {
     const route = useNavigate();
 
     function login(){
-        setcurrentuser(true);
+        // setcurrentuser(true);
         route('/login');
     }
 
@@ -46,7 +46,7 @@ function Sidebar() {
     }
     
     return (
-        <div>
+        <div id='sidebar-full'>
             <div id="sidebar">
                 <div id='sidebar-logo'>
                     <div id='sidebar-logo-section'>
