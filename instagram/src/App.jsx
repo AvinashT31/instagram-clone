@@ -5,6 +5,7 @@ import Signup from './component/Signup';
 import Login from './component/Login';
 import Homapage from './component/Homepage';
 import Addpost from './component/Addpost';
+import Addstory from './component/Addstory';
 import Profile from './component/Profile';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Route exact path='/login' element={<Login/>} />
       <Route exact path='/addpost' element={<Addpost/>} />
       <Route exact path='/profile' element={<Profile/>} />
+      <Route exact path='/addstory' element={<Addstory/>} />
       </Routes>
     </div>
   );

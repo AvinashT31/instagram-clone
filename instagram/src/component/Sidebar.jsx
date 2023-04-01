@@ -9,13 +9,21 @@ function Sidebar() {
 
     const route = useNavigate();
 
-    function called(){
+    function login(){
         setcurrentuser(true);
         route('/login');
     }
 
     function calledaddpost(){
         route('/addpost')
+    }
+
+    function calledprofile(){
+        route('./profile')
+    }
+
+    function calledhome(){
+        route('/')
     }
 
     const [currentuser, setcurrentuser] = useState(false);
@@ -26,7 +34,7 @@ function Sidebar() {
         var DataFromLS = JSON.parse(localStorage.getItem("currentuser"));
          console.log(DataFromLS, "DataFromLS")
 
-        if(currentuser){
+        if(DataFromLS){
             setcurrentuser(true);
         }
         console.log(currentuser, "hello")
@@ -47,7 +55,7 @@ function Sidebar() {
                 </div>
                 <div id='sidebar-mid-section'>
                     <i class="fa-solid fa-house"></i>
-                    <p>Home</p>
+                   <button onClick={calledhome}><p>Home</p></button> 
                 </div>
                 <div id='sidebar-mid-section'>
                     <i class="fa-solid fa-magnifying-glass"></i>
@@ -75,12 +83,13 @@ function Sidebar() {
                 </div>
                 <div id='sidebar-mid-section'>
                     <i class="fa-regular fa-user"></i>
-                    <p>Profile</p>
+                    <button onClick={calledprofile}><p>Profile</p></button>
                 </div>
                 <div id='sidebar-bottom-section'>
-                  {! currentuser && <button onClick={called}>Login</button>} 
-                  { currentuser && <button onClick={logout}>logout</button>}
+                  { currentuser ? <button onClick={logout}>logout</button> :
+                  <button onClick={login}>Login</button> }
                 </div>
+                
             </div>
 
         </div>
