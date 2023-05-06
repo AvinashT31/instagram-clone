@@ -7,6 +7,7 @@ import Homapage from './component/Homepage';
 import Addpost from './component/Addpost';
 import Addstory from './component/Addstory';
 import Profile from './component/Profile';
+import ReducerB from './Reducer.js/ReducerB'
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       <Route exact path='/addpost' element={<Addpost/>} />
       <Route exact path='/profile' element={<Profile/>} />
       <Route exact path='/addstory' element={<Addstory/>} />
-      </Routes>
+      <Route exact path='/reduce' element={<ReducerB/>} />
+     </Routes>
     </div>
   );
 }

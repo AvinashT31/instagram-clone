@@ -1,6 +1,7 @@
 import Sidebar from './Sidebar';
 import './Homepage.css';
-import { useEffect, useState } from 'react';
+import { useEffect, useReducer, useState } from 'react';
+import reducer, { initialState } from '../Reducer.js/ReducerB';
 
 function Profile() {
 
@@ -23,6 +24,12 @@ function Profile() {
     }, [])
 
 
+    const [state, dispatch] = useReducer(reducer, initialState);
+    console.log(state, "state");
+    console.log(dispatch, "dispatch");
+
+    
+
     return (
         <div id='profile-main'>
             <div id='profile-main-left'>
@@ -36,7 +43,7 @@ function Profile() {
                     <div id='profile-pic-content'>
                         <div id='profile-pic-username-content'>
                             <div id='profile-pc-u'>
-                                <p>username</p>
+                                <p>{state.name}</p>
                             </div>
                             <div id='prfile-pic-p'>
                                 <button>Edit Profile</button>

@@ -18,6 +18,10 @@ function Addpost() {
         if (currentuser){
           setaddpostdata({...addpostdata, ["username"]: currentuser.currentusername})
         }
+        else{
+            alert('login first')
+            route('/login');
+        }
 
     }, [])
 

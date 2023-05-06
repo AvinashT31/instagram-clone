@@ -1,5 +1,7 @@
-import { useState } from "react";
+import { useReducer, useState } from "react";
 import { useNavigate } from "react-router-dom";
+// import React {useReducer} from "react";
+import reducer, { initialState } from "../Reducer.js/ReducerB";
 
 function Login() {
 
@@ -12,12 +14,17 @@ function Login() {
     const [ loginData, setloginData] = useState({email:"", username:"", password:""});
     console.log(loginData, "loginData")
 
+    const[state, dispatch] = useReducer(reducer, initialState);
+    // console.log(state, "state");
+    // console.log(dispatch, "dispatch");
+
     function login(e) {
         e.preventDefault();
         // alert("working")
 
         var DataFromLS = JSON.parse(localStorage.getItem("Instagramuser"));
         console.log(DataFromLS, "DataFromLS");
+
 
         var flag = false;
 
@@ -33,6 +40,7 @@ function Login() {
             console.log(user, "user")
             localStorage.setItem("currentuser", JSON.stringify(user));
             setloginData({email:"", username:"", password:""});
+            // dispatch({type:'changed_name'})
             alert("login successfully");
             route('/');
         }
@@ -64,6 +72,7 @@ function Login() {
                         <input onChange={updatingData} name='password' type="Password" value={loginData.password} placeholder='Enter your password' />
                         <br />
                         <input type="submit" value="Log In" />
+                        <h1>{state.name}</h1>
                     </form>
                 </div>
                 <div id='logged-three'>

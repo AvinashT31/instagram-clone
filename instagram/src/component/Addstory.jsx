@@ -16,12 +16,16 @@ function Addstory() {
         if (currentuser){
           setaddstory({...addstory, ["username"]: currentuser.currentusername})
         }
+        else{
+            alert("login first");
+            route('/login');
+        }
     }, [])
 
     function Addstory(e) {
        e.preventDefault();
 
-       alert("working");
+    //    alert("working");
 
        var DataFromLS = JSON.parse(localStorage.getItem("Instagramuser"));
        console.log(DataFromLS, "DataFromLS")
@@ -51,6 +55,7 @@ function Addstory() {
             route('/');
             alert("post added successfully")
       }
+           
 
     }
 
