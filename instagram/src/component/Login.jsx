@@ -42,7 +42,7 @@ function Login() {
             setloginData({email:"", username:"", password:""});
             // dispatch({type:'changed_name'})
             alert("login successfully");
-            route('/');
+            route('/homepage');
         }
         else{
             alert("please check your credentials")

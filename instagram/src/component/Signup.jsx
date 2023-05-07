@@ -35,7 +35,7 @@ function Signup() {
             localStorage.setItem("Instagramuser", JSON.stringify(DataFromLS));
             setuserData({email:"", name:"", username:"", password:""});
             alert("signup successfully");
-            route('/login');
+            route('/');
         }
     }
 
