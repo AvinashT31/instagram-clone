@@ -43,7 +43,7 @@ function Profile() {
                     <div id='profile-pic-content'>
                         <div id='profile-pic-username-content'>
                             <div id='profile-pc-u'>
-                                <p>{state.name}</p>
+                                <p>Useraname</p>
                             </div>
                             <div id='prfile-pic-p'>
                                 <button>Edit Profile</button>

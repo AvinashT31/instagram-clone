@@ -104,7 +104,7 @@ function Homapage() {
                   </div>
                   <div id="homepage-section-three-username">
                      <p>username</p>
-                     <p>Avinash Thorat</p>
+                     <p></p>
                   </div>
                </div>
                <div id="homepage-section-three-item2">

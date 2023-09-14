@@ -18,7 +18,7 @@ function Addstory() {
         }
         else{
             alert("login first");
-            route('/login');
+            route('/');
         }
     }, [])
 
@@ -52,7 +52,7 @@ function Addstory() {
             addstoryindb.push(addstory);
             localStorage.setItem("instastory", JSON.stringify(addstoryindb));
             setaddstory({image:"", addlocation:""});
-            route('/');
+            route('/homepage');
             alert("post added successfully")
       }
            

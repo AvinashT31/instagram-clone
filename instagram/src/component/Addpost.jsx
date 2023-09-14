@@ -20,7 +20,7 @@ function Addpost() {
         }
         else{
             alert('login first')
-            route('/login');
+            // route('/login');
         }
 
     }, [])
@@ -57,7 +57,7 @@ function Addpost() {
             overallposting.push(addpostdata);
             localStorage.setItem("postingData", JSON.stringify(overallposting));
             setaddpostdata({ addcaption: "", image: "", username: "", addlocation: "" });
-            route('/');
+            route('/homepage');
             alert("post added successfully")
         }
 

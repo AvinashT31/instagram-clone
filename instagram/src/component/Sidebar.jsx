@@ -19,11 +19,11 @@ function Sidebar() {
     }
 
     function calledprofile(){
-        route('./profile')
+        route('/profile')
     }
 
     function calledhome(){
-        route('/')
+        route('/homepage')
     }
 
     const [currentuser, setcurrentuser] = useState(false);
@@ -43,6 +43,7 @@ function Sidebar() {
     function logout(){
         localStorage.removeItem("currentuser");
         alert("logout successfully")
+        route('/')
     }
     
     return (
